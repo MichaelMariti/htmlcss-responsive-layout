@@ -162,6 +162,17 @@ p img {
     clear: both;
 }
 
+#p-title {
+    font-size: 25px;
+    font-weight: 200;
+}
+
+#divider{
+    width: 10%;
+    border: solid orange 1px;
+    margin: 20px 0;
+}
+
 /* footer */
 footer {
     background-color: #7C69A4;
@@ -234,5 +245,15 @@ footer {
 
     .social-none {
         display: none;
+    }
+
+    #footer-container {
+        display: block;
+        text-align: center;
+    }
+
+    .d-flex {
+        justify-content: center;
+        margin-top: 20px;
     }
 }
