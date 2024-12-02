@@ -257,3 +257,33 @@ footer {
         margin-top: 20px;
     }
 }
+
+/**********************************
+ Mobile version
+ *********************************/
+
+ @media screen and (max-width:576px) { 
+    header {
+        justify-content: center;
+    }
+
+    /* .social-none {
+        display: none;
+    } */
+
+    .fa-brands {
+        padding: 0;
+    }
+
+    .social {
+        padding: 20px;
+        border-radius: 50%;
+        width: auto;
+    }
+
+    .d-flex {
+        flex-wrap: wrap;
+    }
+    
+
+ }
