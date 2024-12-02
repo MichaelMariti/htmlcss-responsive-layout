@@ -68,6 +68,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     /* DEBUG */
     background-color: green;
     height: 70px;
@@ -75,13 +76,20 @@ main {
 
 .social {
     padding: 10px 50px;
+    width: 19%;
+    text-align: center;
 
     /* DEBUG */
     background-color: blue;
 }
 
 #banner {
-    text-align: center;
+    /* text-align: center; */
+    width: 100%;
+}
+
+#banner img {
+    width: 100%;
 }
 
 /* #presentation {
@@ -154,3 +162,21 @@ footer {
     /* margin-bottom: 30px; */
     padding-top: 10px;
 }
+
+/**********************************
+ Tablet version
+ *********************************/
+ 
+ @media screen and (max-width: 768px) {
+    #vid-section {
+        display: block;
+    }
+
+    .video {
+        width: 100%;
+    }
+
+    .info-video {
+        width: 100%;
+    }
+ }
